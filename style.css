@@ -1,0 +1,53 @@
+body {
+    font-family: Roboto;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+select {
+    margin-bottom: 20px;
+    border: none;
+    height: 30px;
+    width: 250px;
+    text-align: right;
+    outline: none;
+}
+
+.hero-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-card {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+.hero-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.hero-card h2 {
+    margin: 10px 0;
+}
+
+.hero-card p {
+    margin: 5px 0;
+}
